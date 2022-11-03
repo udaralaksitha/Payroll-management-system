@@ -1,0 +1,74 @@
+.Adminbody{
+    @media (orientation: landscape) {
+        body {
+          flex-direction: row;
+        }
+      }
+      @media (orientation: portrait) {
+        body {
+          flex-direction: column;
+        }
+      }
+  
+  
+  
+     @media (min-width: 600px) {
+        main {
+          flex-wrap: nowrap;
+        }
+    
+        div {
+          flex-basis: 33%;
+        }
+}
+}
+
+#Template1.png{
+    @media (orientation: landscape) {
+        body {
+          flex-direction: row;
+        }
+      }
+      @media (orientation: portrait) {
+        body {
+          flex-direction: column;
+        }
+      }
+  
+  
+  
+     @media (min-width: 600px) {
+        main {
+          flex-wrap: nowrap;
+        }
+    
+        div {
+          flex-basis: 33%;
+        }
+}
+}
+
+.form-group{
+    @media (orientation: landscape) {
+        body {
+          flex-direction: row;
+        }
+      }
+      @media (orientation: portrait) {
+        body {
+          flex-direction: column;
+        }
+      }
+  
+  
+  
+     @media (min-width: 600px) {
+        main {
+          flex-wrap: nowrap;
+        }
+    
+        div {
+          flex-basis: 33%;
+        }
+}
+}

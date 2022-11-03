@@ -1,0 +1,882 @@
+/* 
+img {
+  position: fixed;
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  background-size: contain;
+  background-position: center;
+ 
+} */
+.empdailytime {
+  background: url("./images/empdailytime.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.shifts {
+  background: url("./images/shift.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.mantimesheet {
+  background: url("./images/admin timesheet.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.apprtime {
+  background: url("./images/adminTimesheetAppr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bgimg {
+  background: url("./images/Scheduling.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bgimg2 {
+  background: url("./images/addshift.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bgimg3 {
+  background: url("./images/emptime.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bgimg4 {
+  background: url("./images/empleave.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box table {
+  background-color: white;
+  margin-top: 13%;
+  margin-right: auto;
+  margin-left: 290px;
+  width: 1147px;
+  height: 450px;
+}
+
+/*  */
+
+#sidebtn {
+  border-color: transparent;
+  position: absolute;
+  margin-top: 211px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+
+#empsidebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 129px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+#timesidebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 286px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+
+#salsidebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 363px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+#prosidebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 442px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+
+#depsidebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 514px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+#shiftbtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 17px;
+  width: 80px;
+  height: 32px;
+  opacity: 0.3;
+  margin-left: 610px;
+}
+
+#leavebtn {
+  position: absolute;
+  border-color: transparent;
+  margin-top: 17px;
+  width: 175px;
+  height: 32px;
+  opacity: 0.3;
+  margin-left: 945px;
+}
+
+#cancelbtn {
+  position: absolute;
+  margin-top: 576px;
+  width: 134px;
+  height: 47px;
+  opacity: 0.4;
+  margin-left: 1085px;
+  opacity: 0;
+}
+
+#savebtn {
+  position: absolute;
+  margin-top: 576px;
+  width: 134px;
+  height: 47px;
+  opacity: 0.4;
+  margin-left: 1232px;
+  opacity: 0;
+}
+#Monbtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 428px;
+  opacity: 1;
+}
+#Tuebtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 548px;
+  opacity: 1;
+}
+#Wedbtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 668px;
+  opacity: 1;
+}
+#Thubtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 787px;
+  opacity: 1;
+}
+#Fribtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 908px;
+  opacity: 1;
+}
+#Satbtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1028px;
+  opacity: 1;
+}
+#Sunbtn {
+  position: absolute;
+  margin-top: 362px;
+  width: 72px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1151px;
+  opacity: 1;
+}
+
+.comments {
+  margin-top: 450px;
+  text-align: center;
+  width: 840px;
+  height: 110px;
+  margin-left: 400px;
+}
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.starttime {
+  position: absolute;
+  margin-top: 290px;
+  width: 115px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 567px;
+  opacity: 1;
+  text-align: center;
+}
+.endtime {
+  margin-left: 903px;
+  position: absolute;
+  margin-top: 290px;
+  width: 115px;
+  height: 52px;
+  opacity: 0.4;
+  opacity: 1;
+  text-align: center;
+}
+
+.monstarttime {
+  position: absolute;
+  margin-top: 195px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.monendtime {
+  position: absolute;
+  margin-top: 232px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.shiftmonstarttime {
+  position: absolute;
+  margin-top: 360px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.shiftmonendtime {
+  position: absolute;
+  margin-top: 393px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+#monot {
+  position: absolute;
+  margin-top: 268px;
+  width: 100px;
+  height: 26px;
+  margin-left: 415px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#montot {
+  position: absolute;
+  margin-top: 308px;
+  width: 100px;
+  height: 26px;
+  margin-left: 415px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+
+.tuestarttime {
+  position: absolute;
+  margin-top: 195px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.tueendtime {
+  position: absolute;
+  margin-top: 232px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.shifttuestarttime {
+  position: absolute;
+  margin-top: 360px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.shifttueendtime {
+  position: absolute;
+  margin-top: 393px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+#tueot {
+  position: absolute;
+  margin-top: 268px;
+  width: 100px;
+  height: 26px;
+  margin-left: 715px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#tuetot {
+  position: absolute;
+  margin-top: 308px;
+  width: 100px;
+  height: 26px;
+  margin-left: 715px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+.wedstarttime {
+  position: absolute;
+  margin-top: 195px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.wedendtime {
+  position: absolute;
+  margin-top: 232px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.shiftwedstarttime {
+  position: absolute;
+  margin-top: 360px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.shiftwedendtime {
+  position: absolute;
+  margin-top: 393px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+#wedot {
+  position: absolute;
+  margin-top: 268px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1015px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#wedtot {
+  position: absolute;
+  margin-top: 308px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1015px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+.thustarttime {
+  position: absolute;
+  margin-top: 195px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1315px;
+  opacity: 1;
+}
+.thuendtime {
+  position: absolute;
+  margin-top: 232px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1315px;
+  opacity: 1;
+}
+.shiftthustarttime {
+  position: absolute;
+  margin-top: 360px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1315px;
+  opacity: 1;
+}
+.shiftthuendtime {
+  position: absolute;
+  margin-top: 393px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1315px;
+  opacity: 1;
+}
+#thuot {
+  position: absolute;
+  margin-top: 268px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1315px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#thutot {
+  position: absolute;
+  margin-top: 308px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1315px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+.fristarttime {
+  position: absolute;
+  margin-top: 452px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.friendtime {
+  position: absolute;
+  margin-top: 489px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.shiftfristarttime {
+  position: absolute;
+  margin-top: 582px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+.shiftfriendtime {
+  position: absolute;
+  margin-top: 615px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 415px;
+  opacity: 1;
+}
+#friot {
+  position: absolute;
+  margin-top: 525px;
+  width: 100px;
+  height: 26px;
+  margin-left: 415px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#fritot {
+  position: absolute;
+  margin-top: 565px;
+  width: 100px;
+  height: 26px;
+  margin-left: 415px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+
+.satstarttime {
+  position: absolute;
+  margin-top: 452px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.satendtime {
+  position: absolute;
+  margin-top: 489px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.shiftsatstarttime {
+  position: absolute;
+  margin-top: 582px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+.shiftsatendtime {
+  position: absolute;
+  margin-top: 615px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 715px;
+  opacity: 1;
+}
+#satot {
+  position: absolute;
+  margin-top: 525px;
+  width: 100px;
+  height: 26px;
+  margin-left: 715px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#sattot {
+  position: absolute;
+  margin-top: 565px;
+  width: 100px;
+  height: 26px;
+  margin-left: 715px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+
+.sunstarttime {
+  position: absolute;
+  margin-top: 452px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.sunendtime {
+  position: absolute;
+  margin-top: 489px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.shiftsunstarttime {
+  position: absolute;
+  margin-top: 582px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+.shiftsunendtime {
+  position: absolute;
+  margin-top: 615px;
+  width: 100px;
+  height: 52px;
+  opacity: 0.4;
+  margin-left: 1015px;
+  opacity: 1;
+}
+#sunot {
+  position: absolute;
+  margin-top: 525px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1015px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#suntot {
+  position: absolute;
+  margin-top: 565px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1015px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+#weekot {
+  position: absolute;
+  margin-top: 452px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1315px;
+  text-align: center;
+  font-size: 13.5px;
+}
+#weektot {
+  position: absolute;
+  margin-top: 498px;
+  width: 100px;
+  height: 26px;
+  margin-left: 1315px;
+  text-align: center;
+  font-size: 13.5px;
+  opacity: 1;
+}
+#emptimesidebtn {
+  position: absolute;
+  margin-top: 286px;
+  width: 165px;
+  height: 50px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+
+#emptimesavebtn {
+  position: absolute;
+  margin-top: 625px;
+  width: 105px;
+  height: 47px;
+  opacity: 0.4;
+  margin-left: 1077px;
+  opacity: 0;
+}
+
+.empleave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#empleaveform {
+  position: absolute;
+  background-color: white;
+  margin-top: 49%;
+  margin-right: auto;
+  margin-left: 360px;
+  width: 1000px;
+  height: 550px;
+}
+
+.emptime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#emptimeform {
+  position: absolute;
+  background-color: white;
+  margin-top: 49%;
+  margin-right: auto;
+  margin-left: 210px;
+  width: 800px;
+  height: 550px;
+}
+
+.mandashleave {
+  position: absolute;
+  margin-top: 9.5%;
+  margin-left: 265px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 70%;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bgimgManl {
+  background: url("./images/manLreq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+tr.spaceUnder > td {
+  padding-bottom: 3em;
+}
+
+.searchbar {
+  position: absolute;
+  margin-top: 88px;
+  width: 175px;
+  margin-left: 1075px;
+}
+
+#Dreport {
+  position: absolute;
+  margin-top: 88px;
+  width: 175px;
+  margin-left: 1150px;
+}
+
+#fontcol {
+  color: #ffffff;
+}
+
+.emptimeid {
+  margin-left: 1150px;
+}
+
+#timesheetsave {
+  position: absolute;
+  margin-top: 602px;
+  width: 105px;
+  height: 42px;
+  margin-left: 1076px;
+  background-repeat:no-repeat;
+
+
+  
+}
+
+#timesheetsaveuser{
+  position: absolute;
+  margin-top:555px;
+  width: 105px;
+  height: 42px; 
+  margin-left: 919px;
+  background-repeat:no-repeat;
+  border: none;
+  border-style: none;
+
+}
+
+
+#Apprtime {
+  position: absolute;
+  margin-top: 578px;
+  width: 198px;
+  height: 42px;
+  margin-left: 1231px;
+  background-repeat: no-repeat;
+  border: none;
+
+  border-style: none;
+}
+
+#shiftApprtime {
+  position: absolute;
+  margin-top: 555px;
+  width: 198px;
+  height: 42px;
+  margin-left: 1218px;
+  background-repeat: no-repeat;
+  border: none;
+  /* opacity: 0.4;  */
+}
+#Apprtimes {
+  position: absolute;
+  margin-top: 598px;
+  width: 198px;
+  height: 42px;
+  margin-left: 1300px;
+}
+
+#empsheetid {
+  position: absolute;
+  margin-top: 41.2%;
+  margin-left: 180px;
+  width: 198px;
+  height: 42px;
+  text-align: center;
+  font-size: 16.5px;
+  opacity: 1;
+}
+#empsheetids {
+  position: absolute;
+  margin-top: 41.2%;
+  margin-left: 400px;
+  width: 198px;
+  height: 42px;
+  text-align: center;
+  font-size: 16.5px;
+  opacity: 1;
+}
+
+#leavedash {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#leavedash td,
+table th {
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#leavedash tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#leavedash tr:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+#leavedash th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");

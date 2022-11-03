@@ -1,0 +1,668 @@
+
+
+.Sidebar {
+    height: 100%;
+    margin-top:0px;
+    width: 230px;
+    position: absolute;
+    left: 0px;
+    background-color:#001128;
+    margin-left: -7em;
+  }
+  
+  .SidebarList {
+    height: auto;
+    padding-top:110px;
+    width: 88px;
+    padding-left: 4em;
+  
+  }
+  
+  .SidebarList .row {
+    width: 100%;
+    height: 115px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  
+  .SidebarList .row:hover{
+    cursor: pointer;
+    background-color: #1D6CA7;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 0%;
+    
+  }
+  
+  .SidebarList #active {
+    background-color: #1D6CA7;
+  }
+  
+  .row #icon{
+    flex: 30%;
+    place-items: center;
+    position: relative;
+    top:15px;
+    padding-left: 0px;
+  }
+  
+  .row #title{
+    font-size: 13px;
+    flex:70%;
+    position: relative;
+    top: -15px;
+    padding-left: 40px;
+    margin-left: -10px;
+  } 
+
+  
+  .pbaddproj {
+    background:url("../project_budgeting/images/PB\ addproject.png");
+    background-size: 1536px 754px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .pbaddtask {
+    background:url("../project_budgeting/images/PB\ addtask.png");
+    background-size: 1536px 754px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+
+  .pbviewproject {
+    background:url("../project_budgeting/images/pb\ viewproject.png");
+    background-size: 1536px 754px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .pbviewtask {
+    background:url("../project_budgeting/images/pb\ viewtask.png");
+    background-size: 1536px 754px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .pbeditproject {
+    background:url("../project_budgeting/images/PB\ editproject.png");
+    background-size: 1536px 754px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .projform-row{
+    margin-left: 500px;
+    margin-top: 225px;
+    width: 500px;
+    height: 500px; 
+    position: absolute;
+  }
+  
+  .table {
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      border-color: #F1F5F9;
+    }
+   
+  
+  .box {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .box table {
+   background-color:#F1F5F9;
+    margin-top: 13%;
+    margin-right: auto;
+    margin-left: 290px;
+    width: 1147px;
+    height: 450px;   
+  }
+  
+  td{
+    font-size: 14px;
+  }
+  
+  tr {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #projectsearch{
+    margin-top: -20px;
+    margin-left: 1250px;
+    width: 150px;
+    border-radius: 25px;
+  }
+
+  #tasksearch{
+    margin-top: -10px;
+    margin-left: 1250px;
+    width: 150px;
+    border-radius: 25px;
+  }
+
+  #pbsidebtn {
+    position: absolute;
+    margin-top: 440px;
+    width: 165px;
+    height: 50px; 
+    opacity: 0.45;
+    margin-left: 20px;
+  }
+
+#barphomebtn{
+  background-color: #000000;
+  margin-top: 70px;
+  margin-left: 450px;
+  width:100px;
+  height: 50px;
+  opacity: 0%;
+}
+
+#barphomebtnproj{
+  background-color: #000000;
+  margin-top: 80px;
+  margin-left: 450px;
+  width:100px;
+  height: 50px;
+  opacity: 0%;
+}
+
+  #bartaskbtn{
+    background-color: #000000;
+    margin-top: 70px;
+    margin-left: 680px;
+    width:100px;
+    height: 50px;
+    opacity: 0%;
+  }
+
+  #bartaskbtnproj{
+    background-color: #000000;
+    margin-top: -70px;
+    margin-left: 680px;
+    width:100px;
+    height: 50px;
+    opacity: 0%;
+  }
+
+  #barcalbtnproj{
+    background-color: #000000;
+    margin-top: -120px;
+    margin-left: 910px;
+    width:100px;
+    height: 50px;
+    opacity: 0%;
+  }
+
+#barcalbtn{
+  background-color: #000000;
+  margin-top: -70px;
+  margin-left: 910px;
+  width:100px;
+  height: 50px;
+  opacity: 0%;
+}
+
+#barreportbtn{
+  background-color: #000000;
+  margin-top: -120px;
+  margin-left: 1150px;
+  width:100px;
+  height: 50px;
+  opacity: 0%;
+}
+
+#barreportbtnproj{
+  background-color: #000000;
+  margin-top: -160px;
+  margin-left: 1150px;
+  width:100px;
+  height: 50px;
+  opacity: 0%;
+}
+  
+   
+  .btn {
+    opacity: 0.9;
+  }
+
+
+  
+  .submitbtn{
+    background-color: #9F2E80;
+    margin-left: 500px;
+    width: 100px;
+    height: 50px;
+  }
+
+  #projectid{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  #project{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  } 
+
+  #assignees{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  #pstartdate{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  #penddate{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  #progress{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  #projectowner{
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 50px;
+    border-color: #b5ead7;
+    width: 600px;
+  }
+
+  .btn-successAddProject{
+    margin-left:540px;
+    margin-top: -30px;
+    width: 150px;
+    height: 32px;
+    background-color: #F2BEF2;
+  }
+
+  .btn-successPHAdd{
+    margin-left: 320px;
+    margin-top: -60px;
+    width: 150px;
+    height: 35px;
+    background-color: #F2BEF2;
+    opacity: 0;
+  }
+
+  #phometable{
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 70%;
+  }
+
+  #thometable{
+    margin-top: 40px;
+    margin-left: 405px;
+    width: 60%;
+  }
+
+  
+  /*create budget*/
+
+
+  #budget{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+
+  #spenton{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 57px;
+  }
+
+  #amount{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+
+  #remaining{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+
+/*edit project*/
+#projectidbox{
+  height: 40px;
+  width: 100px;
+  margin-top: 28px;
+  margin-left: 30px;
+  background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+#projectbox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+  /*text-align: center;*/
+}
+
+#assigneesbox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#pstartdatebox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#penddatebox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+  
+}
+
+#progressbox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#projectownerbox{
+  height: 40px;
+  width: 100px;
+  margin-top: -5px;
+  margin-left: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#edprojectid{
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+  width:500px;
+}
+
+#edproject{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+}
+
+#edassignees{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+}
+
+#edpstartdate{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+}
+
+#edpenddate{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+}
+
+#edprogress{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+} 
+
+#edprojectowner{
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 50px;
+  border-color: #b5ead7;
+}
+
+   /*edit budget*/
+
+  #budgetbox{
+    height: 40px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 1px;
+
+  }
+
+  #spentonbox{
+    height: 40px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 1px;
+  }
+
+  #amountbox{
+    height: 40px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 1px;
+  }
+
+  #remainingbox{
+    height: 40px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 1px;
+  }
+
+  #edbudget{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+
+  #edspenton{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+  
+  }
+
+  #edamount{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+ 
+  }
+
+  #edremaining{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 57px;
+ 
+  } 
+
+  .projupdatebtn{
+    background-color: #F2BEF2;
+  }
+  .editcard{
+border-width: 2px;
+margin-left: 50px;
+background-color: #06658E;
+  }
+  
+.edprojcard{
+  background-color:#ffffff;
+  margin-left: 35px;
+  border-width: 2px;
+}
+
+.edbudcard{
+  background-color:#ffffff;
+  margin-left: -105px;
+  border-width: 2px;
+}
+
+#scrolledproj{
+  overflow:auto;
+}
+#scrolladdproj{
+  overflow:auto;
+}
+#currency1{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-color: #ffdac1;
+}
+#currency2{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-color: #ffdac1;
+}
+#currency3{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-color: #ffdac1;
+}
+#currency4{
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 550px;
+  border-color: #ffdac1;
+  width: 80px;
+}
+#currency5{
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 550px;
+  border-color: #ffdac1;
+  width:80px;;
+}
+#currency6{
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 550px;
+  border-color: #ffdac1;
+  width:80px;
+}
+.addbudcard{
+  background-color:#ffffff;
+  margin-left: -30px;
+  border-width: 2px;
+  width: 800px
+}
+.addprojcard{
+  width: 1550px;
+  background-color:#ffffff;
+  margin-left: 133px;
+  border-width: 2px;
+}
+.addcard{
+  width: 980px;
+border-width: 2px;
+margin-left: -80px;
+background-color: #06658E;
+}
+.addtaskcard1{
+  width: 980px;
+  border-width: 2px;
+  margin-left: -80px;
+  background-color: #06658E;
+}
+.addtaskcard2{
+  width: 1550px;
+  background-color:#ffffff;
+  margin-left: 133px;
+  border-width: 2px;
+}
+.Cal{
+  text-align: center;
+}
